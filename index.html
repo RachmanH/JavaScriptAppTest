@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-book"></i></a></li>
+                <li><a href="calculator.html"><i class="fa-solid fa-calculator"></i></a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1>To Do List</h1>
+        <span>A Simple To Do List</span>
+        <div class="notification-empty">
+            <span>Task Wajib Diisi</span>
+        </div>
+        <input type="text" id="input" placeholder="Add a new task">
+        <button id="btn" onclick="btnAdd()">Tambah</button>
+    </div>
+
+    <div class="container-list">
+    <h1>Task</h1>
+    <div class="notification">
+        <span>Notes Berhasil Dihapus</span>
+    </div>
+    <ul id="list" onclick="toggleListItem()"></ul>
+    </div>
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
