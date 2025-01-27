@@ -1,4 +1,4 @@
-🌟 **Aplikasi Kalkulator dan To-Do List**  
+# 🌟 **Aplikasi Kalkulator dan To-Do List**  
 Proyek ini adalah sebuah aplikasi web sederhana yang menggabungkan fungsi **Kalkulator** dan **To-Do List**, dibangun menggunakan **JavaScript**, **CSS**, dan **HTML**.  
 
 💡 **Tentang Proyek**  
